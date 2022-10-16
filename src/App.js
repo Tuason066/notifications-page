@@ -1,6 +1,6 @@
 import { useReducer } from 'react';
 
-/* I'm sorry for this setup I know that this is not very good idea */
+/* I'm sorry for this setup I know that this is not a very good idea */
 /* I think the output will be good if there is a data coming from the internet or setup locally */
 /* So I can display them dynamically as well as the functionalities */
 /* In conclusion, the main objectives in this challenge is just to show the notification toggles affecting the notifications count */
@@ -77,12 +77,12 @@ function App() {
       {/* container */}
       <div className='bg-neutral-100 p-4 md:p-8 md:rounded-lg grid gap-2 md:gap-3 max-w-3xl mx-auto md:shadow-md'>
         <header className='flex justify-between md:mb-4'>
-          <h1 className='font-bold'>
-            Notifications
-            <span className='ml-2 px-2 bg-primary-200 text-neutral-100 rounded'>
+          <div className='flex font-bold'>
+            <h1>Notifications</h1>
+            <h2 className='ml-2 px-2 bg-primary-200 text-neutral-100 rounded'>
               {state.count}
-            </span>
-          </h1>
+            </h2>
+          </div>
           <button
             onClick={() => dispatch({ type: 'ALL_READ' })}
             type='button'
