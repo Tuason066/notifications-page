@@ -143,12 +143,14 @@ function App() {
             />
           </a>
           <div>
-            <a
-              href='/'
-              className='inline font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-            >
-              angela gray
-            </a>
+            <h2 className='inline'>
+              <a
+                href='/'
+                className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+              >
+                angela gray
+              </a>
+            </h2>
             <p className='inline text-neutral-400'>followed you</p>
             {!state.people[1].angela.read && (
               <div className='inline-flex items-center'>
@@ -171,12 +173,14 @@ function App() {
             />
           </a>
           <div>
-            <a
-              href='/'
-              className='inline font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-            >
-              jacob thompson
-            </a>
+            <h2 className='inline'>
+              <a
+                href='/'
+                className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+              >
+                jacob thompson
+              </a>
+            </h2>
             <p className='inline text-neutral-400'>has joined your group</p>
             <a href='/' className='ml-2 font-bold text-primary-200'>
               Chess Club
@@ -199,12 +203,14 @@ function App() {
             />
           </a>
           <div className='text-neutral-400'>
-            <a
-              href='/'
-              className='inline font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-            >
-              rizky hasanuddin
-            </a>
+            <h2 className='inline'>
+              <a
+                href='/'
+                className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+              >
+                rizky hasanuddin
+              </a>
+            </h2>
             <p className='inline'>sent you a private message</p>
             <p className='text-sm'>5 days ago</p>
             <a
@@ -229,12 +235,14 @@ function App() {
           <div>
             <div className='grid grid-cols-[1fr_auto]'>
               <div>
-                <a
-                  href='/'
-                  className='inline font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-                >
-                  kimberly smith
-                </a>
+                <h2 className='inline'>
+                  <a
+                    href='/'
+                    className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+                  >
+                    kimberly smith
+                  </a>
+                </h2>
                 <p className='inline text-neutral-400'>
                   commented on your picture
                 </p>
@@ -263,12 +271,14 @@ function App() {
             />
           </a>
           <div>
-            <a
-              href='/'
-              className='inline font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-            >
-              nathan peterson
-            </a>
+            <h2 className='inline'>
+              <a
+                href='/'
+                className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+              >
+                nathan peterson
+              </a>
+            </h2>
             <p className='inline text-neutral-400'>
               reacted to your recent post
             </p>
@@ -292,12 +302,14 @@ function App() {
             />
           </a>
           <div>
-            <a
-              href='/'
-              className='inline font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-            >
-              anna kim
-            </a>
+            <h2 className='inline'>
+              <a
+                href='/'
+                className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+              >
+                anna kim
+              </a>
+            </h2>
             <p className='inline text-neutral-400'>left the group</p>
             <a href='/' className='inline ml-2 font-bold text-primary-200'>
               Chess Club
