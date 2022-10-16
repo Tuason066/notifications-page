@@ -29,6 +29,10 @@ const reducer = (state, action) => {
       };
 
     case 'MARK_READ':
+      if (state.people[0].mark.read) {
+        return state;
+      }
+
       state.people[0] = { mark: { read: true } };
 
       return {
@@ -37,6 +41,10 @@ const reducer = (state, action) => {
       };
 
     case 'ANGELA_READ':
+      if (state.people[1].angela.read) {
+        return state;
+      }
+
       state.people[1] = { angela: { read: true } };
 
       return {
@@ -45,6 +53,10 @@ const reducer = (state, action) => {
       };
 
     case 'JACOB_READ':
+      if (state.people[2].jacob.read) {
+        return state;
+      }
+
       state.people[2] = { jacob: { read: true } };
 
       return {
