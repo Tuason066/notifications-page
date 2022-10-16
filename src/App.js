@@ -104,12 +104,14 @@ function App() {
             />
           </a>
           <div>
-            <a
-              href='/'
-              className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
-            >
-              mark webber
-            </a>
+            <h2 className='inline'>
+              <a
+                href='/'
+                className='font-bold text-neutral-600 mr-2 capitalize hover:text-primary-200 transition-all'
+              >
+                mark webber
+              </a>
+            </h2>
             <p className='inline text-neutral-400'>
               reacted to your recent post
             </p>
